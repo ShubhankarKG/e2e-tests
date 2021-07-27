@@ -85,10 +85,10 @@
   dependencies:
     debug "^4.1.1"
 
-"@prisma/client@2.29.0-dev.1":
-  version "2.29.0-dev.1"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.29.0-dev.1.tgz#b4c8d0c0883b0c208490f982992f37693e7a5e01"
-  integrity sha512-UKuf0qGBO7znK6aiT6QQsfW+gh1cRVV1re0NUG9AJXVwFmFHzQekDZRxRnWZVB5bk6DxqjjRcRHWnZ2232/zXg==
+"@prisma/client@2.28.0":
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.28.0.tgz#6cd91a3c2757814a9454ea23d7e33cd2ff3952db"
+  integrity sha512-iwdxpy0Nz8N40MnhdlRvhZOBk8+GawpEsY5FU8Tfw1k9rvIeTAi+wBHrqhY8bXq6pneZkzrdQ1Hj3tqkrbRmoQ==
   dependencies:
     "@prisma/engines-version" "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
 
@@ -1198,10 +1198,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prisma@2.29.0-dev.1:
-  version "2.29.0-dev.1"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.29.0-dev.1.tgz#614c655d5f3484890d7b312e83270d17e993953a"
-  integrity sha512-YTp4GBbdh/SG3O7AN38yDajh5NOrg3TI/5ImrUyt523H+5NGwNNg+tLD/VI5IMspByzp/LGXX5cyisfFGQwZyw==
+prisma@2.28.0:
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.28.0.tgz#33adb56e336d4c4569ec2f49df9b606771df15d0"
+  integrity sha512-f83KPLy3xk07KMY4e5otNwP2I+GsdftjOfu3e8snXylnyAC1oEpRZNe7rmONr0vAI+Qgz3LFRArhWUE/dFjKIA==
   dependencies:
     "@prisma/engines" "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
 
