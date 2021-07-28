@@ -695,10 +695,10 @@
   dependencies:
     "@prisma/engines-version" "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
 
-"@prisma/debug@2.23.0":
-  version "2.23.0"
-  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.23.0.tgz#abc1309b802a6794bdcbded4cf5263ca5e46c283"
-  integrity sha512-ZMUWQ8XB+qcYRC4vY9K5fjtjKLdPIPofDeT6GjkFfi0NHEOpLP0iR+6o4D9g3bMXG5aCADd7WYZ3HcJ/J8YglA==
+"@prisma/debug@2.28.0":
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/@prisma/debug/-/debug-2.28.0.tgz#bb56e0b1baf91fe7732f8cf14759b1d035180315"
+  integrity sha512-SKihAtTPDqfm/iyLVs5xf1uLu4Ev+zcFLc8vdiGofpHTkeiu3qU1OSDPnrQ0nwn0IJsp3SeRbV0NRWTwL5Z71w==
   dependencies:
     debug "4.3.2"
     ms "^2.1.3"
@@ -713,12 +713,12 @@
   resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27.tgz#5a563ead03405fc6ccb33fe48f8b3a8712be391e"
   integrity sha512-r3/EnwKjbu2qz13I98hPQQdeFrOEcwdjlrB9CcoSoqRCjSHLnpdVMUvRfYuRKIoEF7p941R7/Fov0/CxOLF/MQ==
 
-"@prisma/generator-helper@^2.22.1":
-  version "2.23.0"
-  resolved "https://registry.yarnpkg.com/@prisma/generator-helper/-/generator-helper-2.23.0.tgz#464eb51148bb951c43f9e2b9f6b0b113188c129c"
-  integrity sha512-tTRgYK9FreLhHGfteLt0IHpT3YtLl22QgCQ8vSFs5tj2XvvfpLZjVmbSZcRkbej/x97icwkQ4xe4A71ITs0jcA==
+"@prisma/generator-helper@^2.27.0":
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/@prisma/generator-helper/-/generator-helper-2.28.0.tgz#5444f3c5bf8334f234ba25ca3c2360408e7a1495"
+  integrity sha512-KaDFroGSVfDJBQRoKdXmDvP93Ukj3gI9DVjtABlQFl5FII4VCtsOix76VK+h/Hej4p0yrU6LCCU24Jmw4Enksg==
   dependencies:
-    "@prisma/debug" "2.23.0"
+    "@prisma/debug" "2.28.0"
     "@types/cross-spawn" "^6.0.1"
     chalk "^4.0.0"
     cross-spawn "^7.0.2"
@@ -742,14 +742,15 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@ts-morph/common@~0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@ts-morph/common/-/common-0.9.0.tgz#a306355bad82cff22a1881f7f2f2c710bbb4d69d"
-  integrity sha512-yPcW6koNVK1hVKUu+KhPzhfgMb0uwzr2FewF+q8kxLerl0b+YZwmjvFMU2qbIawytIHT2VBI4bi+C09EFPB4aw==
+"@ts-morph/common@~0.10.1":
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/@ts-morph/common/-/common-0.10.1.tgz#be15b9ab13a32bbc1f6a6bd7dc056b2247b272eb"
+  integrity sha512-rKN/VtZUUlW4M+6vjLFSaFc1Z9sK+1hh0832ucPtPkXqOw/mSWE80Lau4z2zTPNTqtxAjfZbvKpQcEwJy0KIEg==
   dependencies:
     fast-glob "^3.2.5"
     minimatch "^3.0.4"
     mkdirp "^1.0.4"
+    path-browserify "^1.0.1"
 
 "@types/babel__core@^7.0.0":
   version "7.1.12"
@@ -1307,6 +1308,11 @@ escape-string-regexp@^2.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
   integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
 
+escape-string-regexp@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
+  integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
+
 escodegen@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/escodegen/-/escodegen-2.0.0.tgz#5e32b12833e8aa8fa35e1bf0befa89380484c7dd"
@@ -1407,7 +1413,7 @@ filename-reserved-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/filename-reserved-regex/-/filename-reserved-regex-2.0.0.tgz#abf73dfab735d045440abfea2d91f389ebbfa229"
   integrity sha1-q/c9+rc10EVECr/qLZHzieu/oik=
 
-filenamify@^4.3.0:
+filenamify@4.X:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/filenamify/-/filenamify-4.3.0.tgz#62391cb58f02b09971c9d4f9d63b3cf9aba03106"
   integrity sha512-hcFKyUG57yWGAzu1CMt/dPzYZuv+jAJUT85bL8mrXvNe6hWj6yEHEc4EdcgiA6Z3oi1/9wXJdZPXF2dZNgwgOg==
@@ -2240,6 +2246,13 @@ makeerror@1.0.x:
   dependencies:
     tmpl "1.0.x"
 
+matcher@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/matcher/-/matcher-4.0.0.tgz#a42a05a09aaed92e2d241eb91fddac689461ea51"
+  integrity sha512-S6x5wmcDmsDRRU/c2dkccDwQPXoFczc5+HpQ2lON8pnvHlnvHAHj5WlLVvw6n6vNyHuVugYrFohYxbS+pvFpKQ==
+  dependencies:
+    escape-string-regexp "^4.0.0"
+
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
@@ -2373,6 +2386,11 @@ optionator@^0.8.1:
     type-check "~0.3.2"
     word-wrap "~1.2.3"
 
+outmatch@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/outmatch/-/outmatch-0.7.0.tgz#886b0c547e7d2531ce40426b1dc9605fc531bf96"
+  integrity sha512-w1ybiTBffGiwxOO7JJBVVOsIiWwzcfSl/D80amWAU2UDe1o9/SySOUzAwDuN3+jGKQRs0UCDTS8rndFiroJgVQ==
+
 p-each-series@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/p-each-series/-/p-each-series-2.1.0.tgz#961c8dd3f195ea96c747e636b262b800a6b1af48"
@@ -2401,6 +2419,11 @@ parse5@6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
   integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
+
+path-browserify@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-1.0.1.tgz#d98454a9c3753d5790860f16f68867b9e46be1fd"
+  integrity sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==
 
 path-exists@^4.0.0:
   version "4.0.0"
@@ -2466,21 +2489,23 @@ pretty-format@^27.0.6:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-prisma-nestjs-graphql@11.4.5:
-  version "11.4.5"
-  resolved "https://registry.yarnpkg.com/prisma-nestjs-graphql/-/prisma-nestjs-graphql-11.4.5.tgz#b6b713fd2946ca7159f4ad8834e025ddd9cbaeea"
-  integrity sha512-NGlUubp6SkdIjaH1h8YLNO4+xY/EbGcbZJCXpHlg0O2CZSk0TJzW8D8rPfbQaGGXsu+bop9hItzX9JUbQuGQIw==
+prisma-nestjs-graphql@12.2.1:
+  version "12.2.1"
+  resolved "https://registry.yarnpkg.com/prisma-nestjs-graphql/-/prisma-nestjs-graphql-12.2.1.tgz#80e631ea5ac084d8da42278d1de5f6de38b2bcd6"
+  integrity sha512-kkbG4d+jfA8xa1SM05MV6mCOE6eUVGGbQhvb/xr380sgHgIRbwOH7EvIY4c+gyjbx/eIshSy0GRa1X7MhlfUbQ==
   dependencies:
-    "@prisma/generator-helper" "^2.22.1"
+    "@prisma/generator-helper" "^2.27.0"
     await-event-emitter "^2.0.2"
-    filenamify "^4.3.0"
+    filenamify "4.X"
     flat "^5.0.2"
     get-relative-path "^1.0.2"
     json5 "^2.2.0"
     lodash "^4.17.21"
+    matcher "^4.0.0"
+    outmatch "^0.7.0"
     pluralize "^8.0.0"
-    pupa "^2.1.1"
-    ts-morph "^10.0.2"
+    pupa "2.X"
+    ts-morph "^11.0.3"
 
 prisma@2.29.0-dev.5:
   version "2.29.0-dev.5"
@@ -2507,7 +2532,7 @@ punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-pupa@^2.1.1:
+pupa@2.X:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/pupa/-/pupa-2.1.1.tgz#f5e8fd4afc2c5d97828faa523549ed8744a20d62"
   integrity sha512-l1jNAspIBSFqbT+y+5FosojNpVpF94nlI+wDUpqP9enwOTfHx9f0gh5nB96vl+6yTpsJsypeNrwfzPrKuHB41A==
@@ -2807,12 +2832,12 @@ trim-repeated@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-ts-morph@^10.0.2:
-  version "10.0.2"
-  resolved "https://registry.yarnpkg.com/ts-morph/-/ts-morph-10.0.2.tgz#292418207db467326231b2be92828b5e295e7946"
-  integrity sha512-TVuIfEqtr9dW25K3Jajqpqx7t/zLRFxKu2rXQZSDjTm4MO4lfmuj1hn8WEryjeDDBFcNOCi+yOmYUYR4HucrAg==
+ts-morph@^11.0.3:
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/ts-morph/-/ts-morph-11.0.3.tgz#01a92b3c2b5a48ccdf318ec90864229b8061d056"
+  integrity sha512-ymuPkndv9rzqTLiHWMkVrFXWcN4nBiBGhRP/kTC9F5amAAl7BNLfyrsTzMD1o9A0zishKoF1KQT/0yyFhJnPgA==
   dependencies:
-    "@ts-morph/common" "~0.9.0"
+    "@ts-morph/common" "~0.10.1"
     code-block-writer "^10.1.1"
 
 type-check@~0.3.2:
