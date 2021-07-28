@@ -672,22 +672,22 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@prisma/client@2.29.0-dev.5":
-  version "2.29.0-dev.5"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.29.0-dev.5.tgz#5e8119fb355fd3835bda07c76aaeabed62c117d2"
-  integrity sha512-bVw4zD7asvBTzj/ni/cFCaSjF3gUI1VuJox0AyqoTE09ifZ9HtoOjcWKirikGJzDa/oFGZ4cN0jCMotAAkZL/w==
+"@prisma/client@2.29.0-integration-enabling-node-api.4":
+  version "2.29.0-integration-enabling-node-api.4"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.29.0-integration-enabling-node-api.4.tgz#cd6b8626d0ec7468947c3c8f051b7b4fc4f6c36d"
+  integrity sha512-/A8XraCCSNreaFwaxTZ7mti9m8beR8zSeSk6UjDQWNmyl7/sPTZjzFMXhL4dqVVvrkS9RtLfTD6R9wcnXZDppw==
   dependencies:
-    "@prisma/engines-version" "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
+    "@prisma/engines-version" "2.28.0-16.enabling-node-api-d616ac2e761de0623c4f0494620b4199161d9019"
 
-"@prisma/engines-version@2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27":
-  version "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
-  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27.tgz#6dbccdce64f792dbc21c99daef80ec03020c110d"
-  integrity sha512-BWTvF1mGxjG8EtG215uhxdeW5Uf5aiH4xhfzcFPFC3Ux5BdEM1uEBrLIixX67mI+ZNhqNZSBPf0DSf2I1IsaZw==
+"@prisma/engines-version@2.28.0-16.enabling-node-api-d616ac2e761de0623c4f0494620b4199161d9019":
+  version "2.28.0-16.enabling-node-api-d616ac2e761de0623c4f0494620b4199161d9019"
+  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-2.28.0-16.enabling-node-api-d616ac2e761de0623c4f0494620b4199161d9019.tgz#7584ffa00523cfd58fead3c9919abd367ffa58d9"
+  integrity sha512-of8yHec46yMdVTK9B1ve6Co6DlcZIhK/sm0+GHMu+qPhqiBiQE7ZyPZLPNTQgUPjzg9ctiRCw8F4rR2fMnxejQ==
 
-"@prisma/engines@2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27":
-  version "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
-  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27.tgz#5a563ead03405fc6ccb33fe48f8b3a8712be391e"
-  integrity sha512-r3/EnwKjbu2qz13I98hPQQdeFrOEcwdjlrB9CcoSoqRCjSHLnpdVMUvRfYuRKIoEF7p941R7/Fov0/CxOLF/MQ==
+"@prisma/engines@2.28.0-16.enabling-node-api-d616ac2e761de0623c4f0494620b4199161d9019":
+  version "2.28.0-16.enabling-node-api-d616ac2e761de0623c4f0494620b4199161d9019"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-2.28.0-16.enabling-node-api-d616ac2e761de0623c4f0494620b4199161d9019.tgz#cba0c9502a8776e5952e149c5de19426f7b1c6a0"
+  integrity sha512-PMmORIT6Ha7iTUj5pCBza5pajIqe1BVXQYrr0IbejWBxbeZqN2YOil180G2RduEhMGjrmCX7UwnntaQD1uPhWw==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.0"
@@ -2318,12 +2318,12 @@ pretty-format@^27.0.6:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-prisma@2.29.0-dev.5:
-  version "2.29.0-dev.5"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.29.0-dev.5.tgz#57d3a220b53fbd77ebcb2d0de3d9c9c1429a446c"
-  integrity sha512-t1zJAGohEYYhjcfTGeRjvv5StNBH7wQ7OyJkQX0L0YzTb8DXGTIvKpglF3HNrFan76ZipqkX/uTKaNlKq0bXHw==
+prisma@2.29.0-integration-enabling-node-api.4:
+  version "2.29.0-integration-enabling-node-api.4"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.29.0-integration-enabling-node-api.4.tgz#3894d5fa4cf92d297ac007e67e6097db650d55bd"
+  integrity sha512-NonHxtAYyw0geJJQS66yKv65qcBOkAdYVTk6zmXmMLBovW4CnlQvILs0Nr8tVEq/G6VuwSpEnEpsOeprJsIRaQ==
   dependencies:
-    "@prisma/engines" "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
+    "@prisma/engines" "2.28.0-16.enabling-node-api-d616ac2e761de0623c4f0494620b4199161d9019"
 
 prompts@^2.0.1:
   version "2.3.2"
