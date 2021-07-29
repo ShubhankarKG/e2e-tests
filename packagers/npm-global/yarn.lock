@@ -4,19 +4,19 @@
 
 "@prisma/client@2.29.0-dev.5":
   version "2.29.0-dev.5"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.29.0-dev.5.tgz#5e8119fb355fd3835bda07c76aaeabed62c117d2"
+  resolved "https://registry.npmjs.org/@prisma/client/-/client-2.29.0-dev.5.tgz"
   integrity sha512-bVw4zD7asvBTzj/ni/cFCaSjF3gUI1VuJox0AyqoTE09ifZ9HtoOjcWKirikGJzDa/oFGZ4cN0jCMotAAkZL/w==
   dependencies:
     "@prisma/engines-version" "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
 
 "@prisma/engines-version@2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27":
   version "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
-  resolved "https://registry.yarnpkg.com/@prisma/engines-version/-/engines-version-2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27.tgz#6dbccdce64f792dbc21c99daef80ec03020c110d"
+  resolved "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27.tgz"
   integrity sha512-BWTvF1mGxjG8EtG215uhxdeW5Uf5aiH4xhfzcFPFC3Ux5BdEM1uEBrLIixX67mI+ZNhqNZSBPf0DSf2I1IsaZw==
 
 "@prisma/engines@2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27":
   version "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
-  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27.tgz#5a563ead03405fc6ccb33fe48f8b3a8712be391e"
+  resolved "https://registry.npmjs.org/@prisma/engines/-/engines-2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27.tgz"
   integrity sha512-r3/EnwKjbu2qz13I98hPQQdeFrOEcwdjlrB9CcoSoqRCjSHLnpdVMUvRfYuRKIoEF7p941R7/Fov0/CxOLF/MQ==
 
 "@tsconfig/node10@^1.0.7":
@@ -71,7 +71,7 @@ make-error@^1.1.1:
 
 prisma@2.29.0-dev.5:
   version "2.29.0-dev.5"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.29.0-dev.5.tgz#57d3a220b53fbd77ebcb2d0de3d9c9c1429a446c"
+  resolved "https://registry.npmjs.org/prisma/-/prisma-2.29.0-dev.5.tgz"
   integrity sha512-t1zJAGohEYYhjcfTGeRjvv5StNBH7wQ7OyJkQX0L0YzTb8DXGTIvKpglF3HNrFan76ZipqkX/uTKaNlKq0bXHw==
   dependencies:
     "@prisma/engines" "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
@@ -105,10 +105,10 @@ ts-node@10.1.0:
     source-map-support "^0.5.17"
     yn "3.1.1"
 
-typescript@4.2.4:
-  version "4.2.4"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.2.4.tgz"
-  integrity sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==
+typescript@4.3.5:
+  version "4.3.5"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.3.5.tgz"
+  integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
 
 yn@3.1.1:
   version "3.1.1"
