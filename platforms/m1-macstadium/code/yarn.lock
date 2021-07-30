@@ -667,10 +667,10 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@prisma/client@2.29.0-dev.5":
-  version "2.29.0-dev.5"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.29.0-dev.5.tgz#5e8119fb355fd3835bda07c76aaeabed62c117d2"
-  integrity sha512-bVw4zD7asvBTzj/ni/cFCaSjF3gUI1VuJox0AyqoTE09ifZ9HtoOjcWKirikGJzDa/oFGZ4cN0jCMotAAkZL/w==
+"@prisma/client@2.29.0-integration-type-discovery.8":
+  version "2.29.0-integration-type-discovery.8"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.29.0-integration-type-discovery.8.tgz#877e7bf19b6435ac922e134ac10980fb5f4d8a8b"
+  integrity sha512-KP2hl84EJ3S9jQf1hxd3NRWhkt1cJQ7h3iOIlPXtzU3B8fcwQ70IGJYtQO40kkGf8ejIQtWJjhb12ggiCb8YSg==
   dependencies:
     "@prisma/engines-version" "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
 
@@ -2292,10 +2292,10 @@ pretty-format@^27.0.6:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-prisma@2.29.0-dev.5:
-  version "2.29.0-dev.5"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.29.0-dev.5.tgz#57d3a220b53fbd77ebcb2d0de3d9c9c1429a446c"
-  integrity sha512-t1zJAGohEYYhjcfTGeRjvv5StNBH7wQ7OyJkQX0L0YzTb8DXGTIvKpglF3HNrFan76ZipqkX/uTKaNlKq0bXHw==
+prisma@2.29.0-integration-type-discovery.8:
+  version "2.29.0-integration-type-discovery.8"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.29.0-integration-type-discovery.8.tgz#95c7d9093b1cacb996d6108d89bedc190d559417"
+  integrity sha512-m3FJzchU5DJvZ8JwpZ/jNVGN4C/NxQB1UTkH2qXkStrzSbifgS1aOVhgESJoj0bBhBC34nirzuuSSVrdyezXKw==
   dependencies:
     "@prisma/engines" "2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27"
 
